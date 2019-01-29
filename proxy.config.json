@@ -1,0 +1,10 @@
+{
+    "/api": {
+      "target": "http://mapp-spi.188bet.co.uk/api",
+      "secure": false,
+      "pathRewrite": {
+        "^/api": ""
+      },
+      "changeOrigin": true
+    }
+  }
